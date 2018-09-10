@@ -20,7 +20,7 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $embers;
 }
 
 .container {
@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $posy;
   }
 }
 
@@ -117,17 +117,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $black;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $embers;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $embers;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -232,7 +232,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $ink;
     }
   }
 }
@@ -258,7 +258,7 @@ nav {
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
-    font-style: italic;
+    font-style: times new roman;
   }
 
   .comments {
