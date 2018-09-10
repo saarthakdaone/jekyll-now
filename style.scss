@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $grape;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $timesnewroman;
   color: $embers;
 }
 
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $black;
   font-weight: bold;
 
   line-height: 1.7;
@@ -258,7 +258,7 @@ nav {
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
-    font-style: times new roman;
+    font-style:arial;
   }
 
   .comments {
